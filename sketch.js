@@ -30,9 +30,12 @@ background(46, 139, 87);
 if(keyWentDown(UP_ARROW)){
   writeStock(foodS);
   dog.addImage(dogimg2);
+  foodStock - 1;
 }
 
-
+textSize(20);
+fill("black");
+text("Food Remaining:" + foodS ,180,150);
 
 
 
